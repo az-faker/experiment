@@ -1,0 +1,3 @@
+com/ejlerp/crm/consumer/CrmConsumerApplication.class
+com/ejlerp/crm/consumer/conf/DataSourceConf.class
+com/ejlerp/crm/consumer/conf/DubboConf.class

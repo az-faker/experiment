@@ -1,0 +1,25 @@
+# dubbox设定
+dubbo:
+  registry:
+    address: zookeeper://192.168.0.156:2181
+#    address: zookeeper://127.0.0.1:2181
+  annotation:
+    package: com.ejlerp
+  consumer:
+    name: crm-consumer
+    owner: sven
+    organization: egenie
+
+# mysql/datasource配置
+druid:
+  url: jdbc:mysql://192.168.0.156:3306/egenie
+  username: root
+  password: ejl13579
+  driver-class-name: com.mysql.jdbc.Driver
+  initialSize: 3
+  minIdle: 3
+  maxActive: 20
+  timeBetweenEvictionRunsMillis: 60000
+  minEvictableIdleTimeMillis: 300000
+  validationQuery: select '1+1'
+  testWhileIdle: true
