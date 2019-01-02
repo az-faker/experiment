@@ -1,0 +1,32 @@
+/egenie-dts-web/.settings
+# Mac
+.DS_Store
+
+# Eclipse
+.settings/
+**/.settings/
+.classpath
+.project
+.metadata
+**/WEB-INF/lib
+**/WEB-INF/classes
+
+# Intellij IDEA
+*.iml
+*.ipr
+*.iws
+*.ids
+.idea/
+target/
+build/
+out/
+# ignore web project's classes
+egenie-web/src/main/webapp/WEB-INF/classes/
+egenie-web/src/main/webapp/WEB-INF/lib/
+# log
+*.log
+**/.externalToolBuilders/
+
+node_modules/*
+dubbo-registry-ejlerp-crm-provider.properties
+dubbo-registry-ejlerp-crm-provider.properties.lock
